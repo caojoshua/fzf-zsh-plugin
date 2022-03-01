@@ -38,7 +38,7 @@ function _fzf_debugOut() {
 local xdg_path="${XDG_CONFIG_HOME:-$HOME/.config}"
 local fzf_path
 local fzf_conf
-if [[ -d "$xdg_path/fzf" ]]; then
+if [[ -d "$xdg_path" ]]; then
   fzf_path="$xdg_path/fzf"
   fzf_conf="$fzf_path/fzf.zsh"
 else
